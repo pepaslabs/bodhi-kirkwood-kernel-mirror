@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 4.12.1-kirkwood Kernel Configuration
+# Linux/arm 4.12.8-kirkwood Kernel Configuration
 #
 CONFIG_ARM=y
 CONFIG_ARM_HAS_SG_CHAIN=y
@@ -3688,7 +3688,7 @@ CONFIG_RC_CORE=m
 CONFIG_RC_MAP=m
 CONFIG_RC_DECODERS=y
 CONFIG_LIRC=m
-CONFIG_LIRC_RPI=m
+# CONFIG_LIRC_RPI is not set
 CONFIG_IR_LIRC_CODEC=m
 CONFIG_IR_NEC_DECODER=m
 CONFIG_IR_RC5_DECODER=m
