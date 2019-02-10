@@ -2,6 +2,7 @@
 
 This is a mirror of the Linux kernel which has been customized by 'bodhi' to run on a variety of small ARM devices (e.g. the Pogoplug).  See https://forum.doozan.com/read.php?2,12096
 
+For bodhi's compiled files, see [Releases](https://github.com/pepaslabs/bodhi-kirkwood-kernel-mirror/releases)
 
 ## Related resources:
 
