@@ -1,6 +1,6 @@
 diff -Naur a/arch/arm/boot/dts/kirkwood-asus_m25.dts b/arch/arm/boot/dts/kirkwood-asus_m25.dts
 --- a/arch/arm/boot/dts/kirkwood-asus_m25.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-asus_m25.dts	2016-10-23 01:14:23.997848137 -0700
++++ b/arch/arm/boot/dts/kirkwood-asus_m25.dts	2016-12-12 23:42:38.447075566 -0800
 @@ -0,0 +1,334 @@
 +/* 
 + * Device tree file for the Asus-M25 ( Marvell DB-88F6281-BP Development Board )
@@ -338,7 +338,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-asus_m25.dts b/arch/arm/boot/dts/kirkwoo
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-ea4500-dsa.dts b/arch/arm/boot/dts/kirkwood-ea4500-dsa.dts
 --- a/arch/arm/boot/dts/kirkwood-ea4500-dsa.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-ea4500-dsa.dts	2016-10-23 01:47:04.273684645 -0700
++++ b/arch/arm/boot/dts/kirkwood-ea4500-dsa.dts	2016-12-12 23:42:38.447075566 -0800
 @@ -0,0 +1,227 @@
 +/*
 + * kirkwood-ea4500-dsa.dts - Device Tree file for Linksys E4200v2/EA4500 with DSA
@@ -569,7 +569,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-ea4500-dsa.dts b/arch/arm/boot/dts/kirkw
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-ea4500.dts b/arch/arm/boot/dts/kirkwood-ea4500.dts
 --- a/arch/arm/boot/dts/kirkwood-ea4500.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-ea4500.dts	2016-10-20 22:21:40.959222313 -0700
++++ b/arch/arm/boot/dts/kirkwood-ea4500.dts	2016-12-12 23:42:38.477075504 -0800
 @@ -0,0 +1,616 @@
 +/dts-v1/;
 +
@@ -1189,7 +1189,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-ea4500.dts b/arch/arm/boot/dts/kirkwood-
 +};
 diff -Naur a/arch/arm/boot/dts/kirkwood-goflexhome.dts b/arch/arm/boot/dts/kirkwood-goflexhome.dts
 --- a/arch/arm/boot/dts/kirkwood-goflexhome.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-goflexhome.dts	2016-10-20 22:21:40.959222313 -0700
++++ b/arch/arm/boot/dts/kirkwood-goflexhome.dts	2016-12-12 23:42:38.477075504 -0800
 @@ -0,0 +1,127 @@
 +/dts-v1/;
 +
@@ -1319,8 +1319,8 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-goflexhome.dts b/arch/arm/boot/dts/kirkw
 +	};
 +};
 diff -Naur a/arch/arm/boot/dts/kirkwood-goflexnet.dts b/arch/arm/boot/dts/kirkwood-goflexnet.dts
---- a/arch/arm/boot/dts/kirkwood-goflexnet.dts	2016-10-20 01:03:41.000000000 -0700
-+++ b/arch/arm/boot/dts/kirkwood-goflexnet.dts	2016-10-20 22:21:40.989222248 -0700
+--- a/arch/arm/boot/dts/kirkwood-goflexnet.dts	2016-12-11 11:17:54.000000000 -0800
++++ b/arch/arm/boot/dts/kirkwood-goflexnet.dts	2016-12-12 23:42:38.527075400 -0800
 @@ -108,6 +108,7 @@
  		left3 {
  			label = "status:white:left3";
@@ -1339,7 +1339,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-goflexnet.dts b/arch/arm/boot/dts/kirkwo
  	regulators {
 diff -Naur a/arch/arm/boot/dts/kirkwood-iomega_ix4_200d.dts b/arch/arm/boot/dts/kirkwood-iomega_ix4_200d.dts
 --- a/arch/arm/boot/dts/kirkwood-iomega_ix4_200d.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-iomega_ix4_200d.dts	2016-10-23 00:48:48.841083681 -0700
++++ b/arch/arm/boot/dts/kirkwood-iomega_ix4_200d.dts	2016-12-12 23:42:38.537075379 -0800
 @@ -0,0 +1,109 @@
 +/*
 + *  Device tree file for the Iomega ix4-200d
@@ -1452,7 +1452,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-iomega_ix4_200d.dts b/arch/arm/boot/dts/
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-n1t1.dts b/arch/arm/boot/dts/kirkwood-n1t1.dts
 --- a/arch/arm/boot/dts/kirkwood-n1t1.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-n1t1.dts	2016-10-20 22:21:40.989222248 -0700
++++ b/arch/arm/boot/dts/kirkwood-n1t1.dts	2016-12-12 23:42:38.537075379 -0800
 @@ -0,0 +1,233 @@
 +/* Device tree file for the LG N1T1  NAS box.
 + *
@@ -1689,7 +1689,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-n1t1.dts b/arch/arm/boot/dts/kirkwood-n1
 +};
 diff -Naur a/arch/arm/boot/dts/kirkwood-netgear_stora_ms2000.dts b/arch/arm/boot/dts/kirkwood-netgear_stora_ms2000.dts
 --- a/arch/arm/boot/dts/kirkwood-netgear_stora_ms2000.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-netgear_stora_ms2000.dts	2016-10-23 01:22:15.936849632 -0700
++++ b/arch/arm/boot/dts/kirkwood-netgear_stora_ms2000.dts	2016-12-12 23:42:38.547075359 -0800
 @@ -0,0 +1,234 @@
 +/* 
 + * Device tree file for the Netgear Stora MS2000 / MS2110 box.
@@ -1927,7 +1927,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-netgear_stora_ms2000.dts b/arch/arm/boot
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-nsa310b-lmsensor-redusbled.dts b/arch/arm/boot/dts/kirkwood-nsa310b-lmsensor-redusbled.dts
 --- a/arch/arm/boot/dts/kirkwood-nsa310b-lmsensor-redusbled.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-nsa310b-lmsensor-redusbled.dts	2016-10-20 22:21:40.999222226 -0700
++++ b/arch/arm/boot/dts/kirkwood-nsa310b-lmsensor-redusbled.dts	2016-12-12 23:42:38.547075359 -0800
 @@ -0,0 +1,132 @@
 +/* Device tree file for the Zyxel NSA 310 NAS box.
 + *
@@ -2063,7 +2063,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-nsa310b-lmsensor-redusbled.dts b/arch/ar
 +};
 diff -Naur a/arch/arm/boot/dts/kirkwood-nsa310s.dts b/arch/arm/boot/dts/kirkwood-nsa310s.dts
 --- a/arch/arm/boot/dts/kirkwood-nsa310s.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-nsa310s.dts	2016-10-23 00:53:52.470445627 -0700
++++ b/arch/arm/boot/dts/kirkwood-nsa310s.dts	2016-12-12 23:42:38.547075359 -0800
 @@ -0,0 +1,333 @@
 +/* 
 + * Device tree file for the Zyxel NSA 310S NAS box.
@@ -2400,7 +2400,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-nsa310s.dts b/arch/arm/boot/dts/kirkwood
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-nsa320s.dts b/arch/arm/boot/dts/kirkwood-nsa320s.dts
 --- a/arch/arm/boot/dts/kirkwood-nsa320s.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-nsa320s.dts	2016-10-23 00:54:24.270378418 -0700
++++ b/arch/arm/boot/dts/kirkwood-nsa320s.dts	2016-12-12 23:42:38.547075359 -0800
 @@ -0,0 +1,335 @@
 +/* 
 + * Device tree file for the Zyxel NSA 320S NAS box.
@@ -2738,8 +2738,8 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-nsa320s.dts b/arch/arm/boot/dts/kirkwood
 +
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-nsa325.dts b/arch/arm/boot/dts/kirkwood-nsa325.dts
---- a/arch/arm/boot/dts/kirkwood-nsa325.dts	2016-10-20 01:03:41.000000000 -0700
-+++ b/arch/arm/boot/dts/kirkwood-nsa325.dts	2016-10-23 00:49:22.511013262 -0700
+--- a/arch/arm/boot/dts/kirkwood-nsa325.dts	2016-12-11 11:17:54.000000000 -0800
++++ b/arch/arm/boot/dts/kirkwood-nsa325.dts	2016-12-12 23:42:38.557075338 -0800
 @@ -1,18 +1,14 @@
 -/* Device tree file for the Zyxel NSA 325 NAS box.
 +/*
@@ -3140,8 +3140,8 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-nsa325.dts b/arch/arm/boot/dts/kirkwood-
  };
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-pogo_e02.dts b/arch/arm/boot/dts/kirkwood-pogo_e02.dts
---- a/arch/arm/boot/dts/kirkwood-pogo_e02.dts	2016-10-20 01:03:41.000000000 -0700
-+++ b/arch/arm/boot/dts/kirkwood-pogo_e02.dts	2016-10-20 22:21:41.009222204 -0700
+--- a/arch/arm/boot/dts/kirkwood-pogo_e02.dts	2016-12-11 11:17:54.000000000 -0800
++++ b/arch/arm/boot/dts/kirkwood-pogo_e02.dts	2016-12-12 23:42:38.567075317 -0800
 @@ -1,26 +1,11 @@
 -/*
 - * kirkwood-pogo_e02.dts - Device tree file for Pogoplug E02
@@ -3289,7 +3289,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-pogo_e02.dts b/arch/arm/boot/dts/kirkwoo
  
 diff -Naur a/arch/arm/boot/dts/kirkwood-pogoplug_v4.dts b/arch/arm/boot/dts/kirkwood-pogoplug_v4.dts
 --- a/arch/arm/boot/dts/kirkwood-pogoplug_v4.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-pogoplug_v4.dts	2016-10-23 00:49:59.070936702 -0700
++++ b/arch/arm/boot/dts/kirkwood-pogoplug_v4.dts	2016-12-12 23:42:38.567075317 -0800
 @@ -0,0 +1,170 @@
 +/* 
 + * Device tree file for the Pogoplug V4/Mobile
@@ -3463,7 +3463,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-pogoplug_v4.dts b/arch/arm/boot/dts/kirk
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-qizhitong_501m_v2.dts b/arch/arm/boot/dts/kirkwood-qizhitong_501m_v2.dts
 --- a/arch/arm/boot/dts/kirkwood-qizhitong_501m_v2.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-qizhitong_501m_v2.dts	2016-10-23 01:25:39.706415680 -0700
++++ b/arch/arm/boot/dts/kirkwood-qizhitong_501m_v2.dts	2016-12-12 23:42:38.567075317 -0800
 @@ -0,0 +1,127 @@
 +/* Device tree file for the QiZhiTong 501M V2 box.
 + *
@@ -3593,8 +3593,8 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-qizhitong_501m_v2.dts b/arch/arm/boot/dt
 +
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-t5325.dts b/arch/arm/boot/dts/kirkwood-t5325.dts
---- a/arch/arm/boot/dts/kirkwood-t5325.dts	2016-10-20 01:03:41.000000000 -0700
-+++ b/arch/arm/boot/dts/kirkwood-t5325.dts	2016-10-20 22:21:41.009222204 -0700
+--- a/arch/arm/boot/dts/kirkwood-t5325.dts	2016-12-11 11:17:54.000000000 -0800
++++ b/arch/arm/boot/dts/kirkwood-t5325.dts	2016-12-12 23:42:38.567075317 -0800
 @@ -174,9 +174,21 @@
  		compatible = "gpio-poweroff";
  		pinctrl-0 = <&pmx_power_off>;
@@ -3636,9 +3636,9 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-t5325.dts b/arch/arm/boot/dts/kirkwood-t
 +        status = "ok";
 +};
 diff -Naur a/arch/arm/boot/dts/Makefile b/arch/arm/boot/dts/Makefile
---- a/arch/arm/boot/dts/Makefile	2016-10-20 01:03:41.000000000 -0700
-+++ b/arch/arm/boot/dts/Makefile	2016-10-20 22:21:41.039222139 -0700
-@@ -175,8 +175,8 @@
+--- a/arch/arm/boot/dts/Makefile	2016-12-11 11:17:54.000000000 -0800
++++ b/arch/arm/boot/dts/Makefile	2016-12-12 23:42:38.577075296 -0800
+@@ -182,8 +182,8 @@
  	keystone-k2l-evm.dtb \
  	keystone-k2e-evm.dtb \
  	keystone-k2g-evm.dtb
@@ -3649,7 +3649,7 @@ diff -Naur a/arch/arm/boot/dts/Makefile b/arch/arm/boot/dts/Makefile
  	kirkwood-blackarmor-nas220.dtb \
  	kirkwood-cloudbox.dtb \
  	kirkwood-d2net.dtb \
-@@ -200,11 +200,15 @@
+@@ -207,11 +207,15 @@
  	kirkwood-ds411.dtb \
  	kirkwood-ds411j.dtb \
  	kirkwood-ds411slim.dtb \
@@ -3665,7 +3665,7 @@ diff -Naur a/arch/arm/boot/dts/Makefile b/arch/arm/boot/dts/Makefile
  	kirkwood-is2.dtb \
  	kirkwood-km_kirkwood.dtb \
  	kirkwood-laplug.dtb \
-@@ -223,13 +227,18 @@
+@@ -230,13 +234,18 @@
  	kirkwood-net5big.dtb \
  	kirkwood-netgear_readynas_duo_v2.dtb \
  	kirkwood-netgear_readynas_nv+_v2.dtb \
@@ -3685,7 +3685,7 @@ diff -Naur a/arch/arm/boot/dts/Makefile b/arch/arm/boot/dts/Makefile
  	kirkwood-nsa325.dtb \
  	kirkwood-openblocks_a6.dtb \
  	kirkwood-openblocks_a7.dtb \
-@@ -237,7 +246,8 @@
+@@ -244,7 +253,8 @@
  	kirkwood-openrd-client.dtb \
  	kirkwood-openrd-ultimate.dtb \
  	kirkwood-pogo_e02.dtb \
@@ -3696,9 +3696,9 @@ diff -Naur a/arch/arm/boot/dts/Makefile b/arch/arm/boot/dts/Makefile
  	kirkwood-rd88f6281-z0.dtb \
  	kirkwood-rd88f6281-a.dtb \
 diff -Naur a/arch/arm/plat-orion/common.c b/arch/arm/plat-orion/common.c
---- a/arch/arm/plat-orion/common.c	2016-10-20 01:03:41.000000000 -0700
-+++ b/arch/arm/plat-orion/common.c	2016-10-20 22:21:41.059222096 -0700
-@@ -252,7 +252,9 @@
+--- a/arch/arm/plat-orion/common.c	2016-12-11 11:17:54.000000000 -0800
++++ b/arch/arm/plat-orion/common.c	2016-12-12 23:42:38.597075255 -0800
+@@ -258,7 +258,9 @@
  /*****************************************************************************
   * GE00
   ****************************************************************************/
@@ -3710,8 +3710,8 @@ diff -Naur a/arch/arm/plat-orion/common.c b/arch/arm/plat-orion/common.c
  static struct resource orion_ge00_shared_resources[] = {
  	{
 diff -Naur a/arch/arm/tools/mach-types b/arch/arm/tools/mach-types
---- a/arch/arm/tools/mach-types	2016-10-20 01:03:41.000000000 -0700
-+++ b/arch/arm/tools/mach-types	2016-10-20 22:21:41.069222074 -0700
+--- a/arch/arm/tools/mach-types	2016-12-11 11:17:54.000000000 -0800
++++ b/arch/arm/tools/mach-types	2016-12-12 23:42:38.607075234 -0800
 @@ -118,6 +118,7 @@
  omap_osk		MACH_OMAP_OSK		OMAP_OSK		515
  tosa			MACH_TOSA		TOSA			520
@@ -3735,8 +3735,8 @@ diff -Naur a/arch/arm/tools/mach-types b/arch/arm/tools/mach-types
 +nsa310			MACH_NSA310		NSA310			4022
 +nsa310s                 MACH_NSA310S            NSA310S                 4931
 diff -Naur a/drivers/ata/libata-core.c b/drivers/ata/libata-core.c
---- a/drivers/ata/libata-core.c	2016-10-20 01:03:41.000000000 -0700
-+++ b/drivers/ata/libata-core.c	2016-10-20 22:21:41.129221944 -0700
+--- a/drivers/ata/libata-core.c	2016-12-11 11:17:54.000000000 -0800
++++ b/drivers/ata/libata-core.c	2016-12-12 23:42:38.657075130 -0800
 @@ -5,6 +5,7 @@
   *    		    Please ALWAYS copy linux-ide@vger.kernel.org
   *		    on emails.
@@ -3754,403 +3754,12 @@ diff -Naur a/drivers/ata/libata-core.c b/drivers/ata/libata-core.c
  
  	/* XXX: New EH and old EH use different mechanisms to
  	 * synchronize EH with regular execution path.
-diff -Naur a/drivers/hwmon/Kconfig b/drivers/hwmon/Kconfig
---- a/drivers/hwmon/Kconfig	2016-10-20 01:03:41.000000000 -0700
-+++ b/drivers/hwmon/Kconfig	2016-10-20 22:21:41.149221901 -0700
-@@ -1823,6 +1823,19 @@
- 	  This driver provides support for the Ultra45 workstation environmental
- 	  sensors.
- 
-+config SENSORS_NSA3XX
-+	tristate "ZyXEL NSA3xx fan speed and temperature sensors"
-+	depends on GPIOLIB
-+	help
-+	  If you say yes here you get support for hardware monitoring
-+	  for the ZyXEL NSA3XX Media Servers.
-+
-+	  The sensor data is taken from a Holtek HT46R065 microcontroller
-+	  connected to GPIO lines.
-+
-+	  This driver can also be built as a module. If so, the module
-+	  will be called nsa3xx-hwmon.
-+
- if ACPI
- 
- comment "ACPI drivers"
-diff -Naur a/drivers/hwmon/Makefile b/drivers/hwmon/Makefile
---- a/drivers/hwmon/Makefile	2016-10-20 01:03:41.000000000 -0700
-+++ b/drivers/hwmon/Makefile	2016-10-20 22:21:41.149221901 -0700
-@@ -121,6 +121,7 @@
- obj-$(CONFIG_SENSORS_MAX6697)	+= max6697.o
- obj-$(CONFIG_SENSORS_MAX31790)	+= max31790.o
- obj-$(CONFIG_SENSORS_MC13783_ADC)+= mc13783-adc.o
-+obj-$(CONFIG_SENSORS_NSA3XX)	+= nsa3xx-hwmon.o
- obj-$(CONFIG_SENSORS_MCP3021)	+= mcp3021.o
- obj-$(CONFIG_SENSORS_MENF21BMC_HWMON) += menf21bmc_hwmon.o
- obj-$(CONFIG_SENSORS_NCT6683)	+= nct6683.o
-diff -Naur a/drivers/hwmon/nsa3xx-hwmon.c b/drivers/hwmon/nsa3xx-hwmon.c
---- a/drivers/hwmon/nsa3xx-hwmon.c	1969-12-31 16:00:00.000000000 -0800
-+++ b/drivers/hwmon/nsa3xx-hwmon.c	2016-10-20 22:21:41.149221901 -0700
-@@ -0,0 +1,353 @@
-+/*
-+ * drivers/hwmon/nsa3xx-hwmon.c
-+ *
-+ * ZyXEL NSA3xx Media Servers
-+ * hardware monitoring
-+ *
-+ * Copyright (C) 2012 Peter Schildmann <linux@schildmann.info>
-+ *
-+ * This program is free software; you can redistribute it and/or modify it
-+ * under the terms of the GNU General Public License v2 as published by the
-+ * Free Software Foundation.
-+ *
-+ * This program is distributed in the hope that it will be useful, but WITHOUT
-+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
-+ * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
-+ * more details.
-+ *
-+ * You should have received a copy of the GNU General Public License along with
-+ * this program; if not, write to the Free Software Foundation, Inc.,
-+ * 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
-+ */
-+
-+#include <linux/module.h>
-+#include <linux/mutex.h>
-+#include <linux/platform_device.h>
-+#include <linux/err.h>
-+#include <linux/gpio.h>
-+#include <linux/hwmon.h>
-+#include <linux/hwmon-sysfs.h>
-+#include <linux/platform_data/nsa3xx-hwmon.h>
-+#include <linux/slab.h>
-+#include <linux/jiffies.h>
-+#include <linux/delay.h>
-+#include <linux/of.h>
-+#include <linux/of_device.h>
-+#include <linux/of_platform.h>
-+#include <linux/of_gpio.h>
-+#include <asm/delay.h>
-+
-+#define MAGIC_NUMBER 0x55
-+#define DRVNAME "nsa3xx-hwmon"
-+
-+struct nsa3xx_hwmon {
-+	struct platform_device	*pdev;
-+	struct device		*classdev;
-+	struct mutex		update_lock;	/* lock GPIO operations */
-+	unsigned long		last_updated;	/* jiffies */
-+	unsigned long		mcu_data;
-+        struct gpio_mcu_data    *data;
-+};
-+
-+enum nsa3xx_inputs {
-+	NSA3XX_FAN = 1,
-+	NSA3XX_TEMP = 0,
-+};
-+
-+static const char *nsa3xx_input_names[] = {
-+	[NSA3XX_FAN] = "Chassis Fan",
-+	[NSA3XX_TEMP] = "System Temperature",
-+};
-+
-+static unsigned long nsa3xx_hwmon_update(struct device *dev)
-+{
-+	int i;
-+	unsigned long mcu_data;
-+	struct nsa3xx_hwmon *hwmon = dev_get_drvdata(dev);
-+	struct nsa3xx_hwmon_platform_data *pdata = hwmon->pdev->dev.platform_data;
-+	mutex_lock(&hwmon->update_lock);
-+
-+	mcu_data = hwmon->mcu_data;
-+
-+	if (time_after(jiffies, hwmon->last_updated + (3 * HZ)) || mcu_data == 0) {
-+		dev_dbg(dev, "Reading MCU data\n");
-+
-+		gpio_set_value(pdata->act_pin, 0);
-+		dev_dbg(dev, "gpio set value MCU act pin 0\n");
-+		msleep(100);
-+
-+		for (i = 31; i >= 0; i--) {
-+			gpio_set_value(pdata->clk_pin, 0);
-+			udelay(100);
-+
-+			gpio_set_value(pdata->clk_pin, 1);
-+			udelay(100);
-+
-+			mcu_data |= gpio_get_value(pdata->data_pin) ? (1 << i) : 0;
-+		}
-+
-+		gpio_set_value(pdata->act_pin, 1);
-+		dev_dbg(dev, "gpio set value MCU act pin 1\n");
-+
-+		if ((mcu_data & 0xff000000) != (MAGIC_NUMBER << 24)) {
-+			dev_err(dev, "Failed to read MCU data\n");
-+			mcu_data = 0;
-+		}
-+
-+		hwmon->mcu_data = mcu_data;
-+		hwmon->last_updated = jiffies;
-+	}
-+
-+	mutex_unlock(&hwmon->update_lock);
-+
-+	return mcu_data;
-+}
-+
-+static ssize_t show_name(struct device *dev,
-+			 struct device_attribute *attr, char *buf)
-+{
-+	return sprintf(buf, "nsa3xx\n");
-+}
-+
-+static ssize_t show_label(struct device *dev,
-+			  struct device_attribute *attr, char *buf)
-+{
-+	int channel = to_sensor_dev_attr(attr)->index;
-+	return sprintf(buf, "%s\n", nsa3xx_input_names[channel]);
-+}
-+
-+static ssize_t show_value(struct device *dev,
-+			  struct device_attribute *attr, char *buf)
-+{
-+	int channel = to_sensor_dev_attr(attr)->index;
-+	unsigned long mcu_data = nsa3xx_hwmon_update(dev);
-+	unsigned long value = 0;
-+	pr_debug("channel value 0x%02x!\n", channel);
-+	switch(channel) {
-+	case NSA3XX_TEMP:
-+		value = (mcu_data & 0xffff) * 100;
-+		break;
-+	case NSA3XX_FAN:
-+		value = ((mcu_data & 0xff0000) >> 16) * 100;
-+		break;
-+	}
-+	return sprintf(buf, "%lu\n", value);
-+}
-+
-+static DEVICE_ATTR(name, S_IRUGO, show_name, NULL);
-+static SENSOR_DEVICE_ATTR(temp1_label, S_IRUGO, show_label, NULL, NSA3XX_TEMP);
-+static SENSOR_DEVICE_ATTR(temp1_input, S_IRUGO, show_value, NULL, NSA3XX_TEMP);
-+static SENSOR_DEVICE_ATTR(fan1_label, S_IRUGO, show_label, NULL, NSA3XX_FAN);
-+static SENSOR_DEVICE_ATTR(fan1_input, S_IRUGO, show_value, NULL, NSA3XX_FAN);
-+
-+static struct attribute *nsa3xx_attributes[] = {
-+	&dev_attr_name.attr,
-+	&sensor_dev_attr_temp1_label.dev_attr.attr,
-+	&sensor_dev_attr_temp1_input.dev_attr.attr,
-+	&sensor_dev_attr_fan1_label.dev_attr.attr,
-+	&sensor_dev_attr_fan1_input.dev_attr.attr,
-+	NULL
-+};
-+
-+/*
-+ * Helper to import hardware characteristics from .dts file and push
-+ * those to the chip.
-+ */
-+
-+#ifdef CONFIG_OF_GPIO
-+
-+/*
-+ * Translate OpenFirmware node properties into platform_data
-+ */
-+static int nsa3xx_hwmon_get_of_pdata(struct device *dev,
-+                            struct nsa3xx_hwmon_platform_data *pdata)
-+{
-+	int nb;
-+	struct device_node *node = dev->of_node;
-+	struct property *prop;
-+	int val1,val2,val3;
-+	enum of_gpio_flags flags;
-+	unsigned i;
-+
-+        /* Find mcu-data node to read out temp and rpss */
-+        prop = of_find_property(node, "data-gpios", &i);
-+        if (!prop) {
-+                dev_err(dev, "data-gpios DT property missing");
-+                return -ENODEV;
-+        }
-+
-+	nb = of_gpio_named_count(node, "data-gpios");
-+        /* Return error only for an incorrectly formed mcu-data property */
-+        /*if (nb == 0 || nb == -ENOENT)
-+                return 0;*/
-+        if (nb < 0) {
-+		dev_err(dev, "Failed to find data-gpios\n");
-+                return nb;
-+	}
-+
-+	val1 = of_get_named_gpio_flags(node, "data-gpios", 0, &flags);
-+	if (val1 < 0) {
-+		dev_err(dev, "Failed to find data-gpios flags\n");
-+		return val1;
-+	}
-+	pr_debug("data-gpios value id 0x%02x!\n", val1);
-+	pdata->data_pin = val1;
-+
-+	val2 = of_get_named_gpio_flags(node, "clk-gpios", 0, &flags);
-+	if (val2 < 0) {
-+		dev_err(dev, "Failed to find clk-gpios flags\n");
-+		return val2;
-+	}
-+	pr_debug("clk-gpios value id 0x%02x!\n", val2);
-+	pdata->clk_pin = val2;
-+
-+	val3 = of_get_named_gpio_flags(node, "act-gpios", 0, &flags);
-+	if (val3 < 0) {
-+		dev_err(dev, "Failed to find act-gpios flags\n");
-+		return val3;
-+	}
-+	pr_debug("act-gpios value id 0x%02x!\n", val3);
-+	pdata->act_pin = val3;
-+
-+        return 0;
-+
-+}
-+
-+static const struct of_device_id of_nsa3xx_hwmon_match[] = {
-+	{
-+		.name = "nas3xx-hwmon",
-+		.compatible = "zyxel,nsa320-mcu",
-+	},
-+	{ },
-+};
-+#endif /* CONFIG_OF_GPIO */
-+
-+static const struct attribute_group nsa3xx_attr_group = {
-+	.attrs	= nsa3xx_attributes,
-+};
-+
-+static int nsa3xx_hwmon_request_gpios(struct nsa3xx_hwmon_platform_data *pdata)
-+{
-+	int ret;
-+
-+	if ((ret = gpio_request(pdata->act_pin, "act pin")))
-+		return ret;
-+
-+	if ((ret = gpio_request(pdata->clk_pin, "clk pin")))
-+		return ret;
-+
-+	if ((ret = gpio_request(pdata->data_pin, "data pin")))
-+		return ret;
-+
-+	if ((ret = gpio_direction_output(pdata->act_pin, 1)))
-+		return ret;
-+
-+	if ((ret = gpio_direction_output(pdata->clk_pin, 1)))
-+		return ret;
-+
-+	if ((ret = gpio_direction_input(pdata->data_pin)))
-+		return ret;
-+
-+	return 0;
-+}
-+
-+static void nsa3xx_hwmon_free_gpios(struct nsa3xx_hwmon_platform_data *pdata)
-+{
-+	gpio_free(pdata->act_pin);
-+	gpio_free(pdata->clk_pin);
-+	gpio_free(pdata->data_pin);
-+}
-+
-+static int nsa3xx_hwmon_probe(struct platform_device *pdev)
-+{
-+	int ret;
-+	struct nsa3xx_hwmon *hwmon;
-+	struct nsa3xx_hwmon_platform_data *pdata = pdev->dev.platform_data;
-+
-+	hwmon = devm_kzalloc(&pdev->dev, sizeof(struct nsa3xx_hwmon),
-+				GFP_KERNEL);
-+	if (!hwmon)
-+		return -ENOMEM;
-+
-+#ifdef CONFIG_OF_GPIO
-+        if (!pdata) {
-+                pdata = devm_kzalloc(&pdev->dev,
-+                                        sizeof(struct nsa3xx_hwmon_platform_data),
-+                                        GFP_KERNEL);
-+                if (!pdata)
-+                        return -ENOMEM;
-+		pdev->dev.platform_data = pdata;
-+                ret = nsa3xx_hwmon_get_of_pdata(&pdev->dev, pdata);
-+                if (ret)
-+                        return ret;
-+        }
-+#else /* CONFIG_OF_GPIO */
-+        if (!pdata)
-+                return -EINVAL;
-+#endif /* CONFIG_OF_GPIO */
-+
-+	platform_set_drvdata(pdev, hwmon);
-+	hwmon->pdev = pdev;
-+	hwmon->mcu_data = 0;
-+	mutex_init(&hwmon->update_lock);
-+
-+	ret = sysfs_create_group(&pdev->dev.kobj, &nsa3xx_attr_group);
-+	if (ret)
-+		goto err;
-+
-+	hwmon->classdev = hwmon_device_register(&pdev->dev);
-+	if (IS_ERR(hwmon->classdev)) {
-+		ret = PTR_ERR(hwmon->classdev);
-+		goto err_sysfs;
-+	}
-+
-+	ret = nsa3xx_hwmon_request_gpios(pdata);
-+	if (ret)
-+		goto err_free_gpio;
-+
-+	dev_info(&pdev->dev, "initialized\n");
-+
-+	return 0;
-+
-+err_free_gpio:
-+	nsa3xx_hwmon_free_gpios(pdata);
-+	hwmon_device_unregister(hwmon->classdev);
-+err_sysfs:
-+	sysfs_remove_group(&pdev->dev.kobj, &nsa3xx_attr_group);
-+err:
-+	platform_set_drvdata(pdev, NULL);
-+	kfree(hwmon);
-+	return ret;
-+}
-+
-+static int nsa3xx_hwmon_remove(struct platform_device *pdev)
-+{
-+	struct nsa3xx_hwmon *hwmon = platform_get_drvdata(pdev);
-+
-+	nsa3xx_hwmon_free_gpios(pdev->dev.platform_data);
-+	hwmon_device_unregister(hwmon->classdev);
-+	sysfs_remove_group(&pdev->dev.kobj, &nsa3xx_attr_group);
-+	platform_set_drvdata(pdev, NULL);
-+	kfree(hwmon);
-+
-+	return 0;
-+}
-+
-+static struct platform_driver nsa3xx_hwmon_driver = {
-+	.probe = nsa3xx_hwmon_probe,
-+	.remove = nsa3xx_hwmon_remove,
-+	.driver = {
-+		.name = DRVNAME,
-+		.owner = THIS_MODULE,
-+#ifdef CONFIG_OF_GPIO
-+                .of_match_table = of_match_ptr(of_nsa3xx_hwmon_match),
-+#endif
-+	},
-+};
-+
-+module_platform_driver(nsa3xx_hwmon_driver);
-+
-+MODULE_AUTHOR("Peter Schildmann <linux@schildmann.info>");
-+MODULE_DESCRIPTION("NSA3XX Hardware Monitoring");
-+MODULE_LICENSE("GPL");
-+MODULE_ALIAS("platform:nsa3xx-hwmon");
 diff -Naur a/drivers/leds/Kconfig b/drivers/leds/Kconfig
---- a/drivers/leds/Kconfig	2016-10-20 01:03:41.000000000 -0700
-+++ b/drivers/leds/Kconfig	2016-10-20 22:21:41.169221857 -0700
-@@ -631,6 +631,106 @@
- 	  This option enabled support for the LEDs on the ARM Versatile
- 	  and RealView boards. Say Y to enabled these.
+--- a/drivers/leds/Kconfig	2016-12-11 11:17:54.000000000 -0800
++++ b/drivers/leds/Kconfig	2016-12-12 23:42:38.707075026 -0800
+@@ -659,6 +659,106 @@
+ 	  This option enabled support for the LEDs on the Mellanox
+ 	  boards. Say Y to enabled these.
  
 +config LEDS_TRIGGERS
 + 	bool "LED Trigger support"
@@ -4256,8 +3865,8 @@ diff -Naur a/drivers/leds/Kconfig b/drivers/leds/Kconfig
  source "drivers/leds/trigger/Kconfig"
  
 diff -Naur a/drivers/leds/trigger/ledtrig-disk.c b/drivers/leds/trigger/ledtrig-disk.c
---- a/drivers/leds/trigger/ledtrig-disk.c	2016-10-20 01:03:41.000000000 -0700
-+++ b/drivers/leds/trigger/ledtrig-disk.c	2016-10-20 22:21:41.179221835 -0700
+--- a/drivers/leds/trigger/ledtrig-disk.c	2016-12-11 11:17:54.000000000 -0800
++++ b/drivers/leds/trigger/ledtrig-disk.c	2016-12-12 23:42:38.717075006 -0800
 @@ -1,6 +1,9 @@
  /*
   * LED Disk Activity Trigger
@@ -4314,8 +3923,8 @@ diff -Naur a/drivers/leds/trigger/ledtrig-disk.c b/drivers/leds/trigger/ledtrig-
  	return 0;
  }
 diff -Naur a/drivers/media/rc/Kconfig b/drivers/media/rc/Kconfig
---- a/drivers/media/rc/Kconfig	2016-10-20 01:03:41.000000000 -0700
-+++ b/drivers/media/rc/Kconfig	2016-10-20 22:21:41.189221814 -0700
+--- a/drivers/media/rc/Kconfig	2016-12-11 11:17:54.000000000 -0800
++++ b/drivers/media/rc/Kconfig	2016-12-12 23:42:38.737074964 -0800
 @@ -23,6 +23,17 @@
  	   LIRC daemon handles protocol decoding for IR reception and
  	   encoding for IR transmitting (aka "blasting").
@@ -4336,7 +3945,7 @@ diff -Naur a/drivers/media/rc/Kconfig b/drivers/media/rc/Kconfig
  	depends on RC_CORE
 diff -Naur a/drivers/media/rc/lirc_rpi.c b/drivers/media/rc/lirc_rpi.c
 --- a/drivers/media/rc/lirc_rpi.c	1969-12-31 16:00:00.000000000 -0800
-+++ b/drivers/media/rc/lirc_rpi.c	2016-10-20 22:21:41.189221814 -0700
++++ b/drivers/media/rc/lirc_rpi.c	2016-12-12 23:42:38.737074964 -0800
 @@ -0,0 +1,797 @@
 +/*
 + * lirc_rpi.c
@@ -5136,8 +4745,8 @@ diff -Naur a/drivers/media/rc/lirc_rpi.c b/drivers/media/rc/lirc_rpi.c
 +module_param(debug, bool, S_IRUGO | S_IWUSR);
 +MODULE_PARM_DESC(debug, "Enable debugging messages");
 diff -Naur a/drivers/media/rc/Makefile b/drivers/media/rc/Makefile
---- a/drivers/media/rc/Makefile	2016-10-20 01:03:41.000000000 -0700
-+++ b/drivers/media/rc/Makefile	2016-10-20 22:21:41.189221814 -0700
+--- a/drivers/media/rc/Makefile	2016-12-11 11:17:54.000000000 -0800
++++ b/drivers/media/rc/Makefile	2016-12-12 23:42:38.737074964 -0800
 @@ -4,6 +4,7 @@
  
  obj-$(CONFIG_RC_CORE) += rc-core.o
@@ -5147,9 +4756,9 @@ diff -Naur a/drivers/media/rc/Makefile b/drivers/media/rc/Makefile
  obj-$(CONFIG_IR_RC5_DECODER) += ir-rc5-decoder.o
  obj-$(CONFIG_IR_RC6_DECODER) += ir-rc6-decoder.o
 diff -Naur a/drivers/mmc/core/sd.c b/drivers/mmc/core/sd.c
---- a/drivers/mmc/core/sd.c	2016-10-20 01:03:41.000000000 -0700
-+++ b/drivers/mmc/core/sd.c	2016-10-20 22:21:41.209221770 -0700
-@@ -363,6 +363,15 @@
+--- a/drivers/mmc/core/sd.c	2016-12-11 11:17:54.000000000 -0800
++++ b/drivers/mmc/core/sd.c	2016-12-12 23:42:38.747074943 -0800
+@@ -355,6 +355,15 @@
  		return -ENOMEM;
  	}
  
@@ -5166,8 +4775,8 @@ diff -Naur a/drivers/mmc/core/sd.c b/drivers/mmc/core/sd.c
  	if (err)
  		goto out;
 diff -Naur a/drivers/net/ethernet/marvell/mv643xx_eth.c b/drivers/net/ethernet/marvell/mv643xx_eth.c
---- a/drivers/net/ethernet/marvell/mv643xx_eth.c	2016-10-20 01:03:41.000000000 -0700
-+++ b/drivers/net/ethernet/marvell/mv643xx_eth.c	2016-10-20 22:21:41.259221662 -0700
+--- a/drivers/net/ethernet/marvell/mv643xx_eth.c	2016-12-11 11:17:54.000000000 -0800
++++ b/drivers/net/ethernet/marvell/mv643xx_eth.c	2016-12-12 23:42:38.807074819 -0800
 @@ -1,5 +1,11 @@
  /*
   * Driver for Marvell Discovery (MV643XX) and Marvell Orion ethernet ports
@@ -5180,7 +4789,7 @@ diff -Naur a/drivers/net/ethernet/marvell/mv643xx_eth.c b/drivers/net/ethernet/m
   * Copyright (C) 2002 Matthew Dharm <mdharm@momenco.com>
   *
   * Based on the 64360 driver from:
-@@ -2339,8 +2345,25 @@
+@@ -2341,8 +2347,25 @@
  		phy_init_hw(mp->phy);
  		mv643xx_eth_set_settings(mp->dev, &cmd);
  		phy_start(mp->phy);
@@ -5207,8 +4816,8 @@ diff -Naur a/drivers/net/ethernet/marvell/mv643xx_eth.c b/drivers/net/ethernet/m
  	/*
  	 * Configure basic link parameters.
  	 */
-@@ -3132,8 +3155,20 @@
- 					 PHY_INTERFACE_MODE_GMII);
+@@ -3151,8 +3174,20 @@
+ 					 get_phy_mode(mp));
  		if (!mp->phy)
  			err = -ENODEV;
 -		else
@@ -5229,7 +4838,7 @@ diff -Naur a/drivers/net/ethernet/marvell/mv643xx_eth.c b/drivers/net/ethernet/m
  	} else if (pd->phy_addr != MV643XX_ETH_PHY_NONE) {
  		mp->phy = phy_scan(mp, pd->phy_addr);
  
-@@ -3178,7 +3213,7 @@
+@@ -3197,7 +3232,7 @@
  	dev->watchdog_timeo = 2 * HZ;
  	dev->base_addr = 0;
  
@@ -5239,8 +4848,8 @@ diff -Naur a/drivers/net/ethernet/marvell/mv643xx_eth.c b/drivers/net/ethernet/m
  
  	dev->features |= NETIF_F_RXCSUM;
 diff -Naur a/drivers/net/Kconfig b/drivers/net/Kconfig
---- a/drivers/net/Kconfig	2016-10-20 01:03:41.000000000 -0700
-+++ b/drivers/net/Kconfig	2016-10-20 22:21:41.269221640 -0700
+--- a/drivers/net/Kconfig	2016-12-11 11:17:54.000000000 -0800
++++ b/drivers/net/Kconfig	2016-12-12 23:42:38.817074798 -0800
 @@ -26,6 +26,7 @@
  if NETDEVICES
  
@@ -5249,27 +4858,9 @@ diff -Naur a/drivers/net/Kconfig b/drivers/net/Kconfig
  	tristate
  
  config NET_CORE
-diff -Naur a/drivers/net/phy/Kconfig b/drivers/net/phy/Kconfig
---- a/drivers/net/phy/Kconfig	2016-10-20 01:03:41.000000000 -0700
-+++ b/drivers/net/phy/Kconfig	2016-10-20 22:21:41.279221618 -0700
-@@ -36,7 +36,7 @@
- 	tristate "Drivers for Marvell PHYs"
- 	---help---
- 	  Currently has a driver for the 88E1011S
--	
-+
- config DAVICOM_PHY
- 	tristate "Drivers for Davicom PHYs"
- 	---help---
-@@ -313,3 +313,5 @@
- config MICREL_KS8995MA
- 	tristate "Micrel KS8995MA 5-ports 10/100 managed Ethernet switch"
- 	depends on SPI
-+
-+
 diff -Naur a/drivers/pinctrl/mvebu/pinctrl-kirkwood.c b/drivers/pinctrl/mvebu/pinctrl-kirkwood.c
---- a/drivers/pinctrl/mvebu/pinctrl-kirkwood.c	2016-10-20 01:03:41.000000000 -0700
-+++ b/drivers/pinctrl/mvebu/pinctrl-kirkwood.c	2016-10-20 22:21:41.289221597 -0700
+--- a/drivers/pinctrl/mvebu/pinctrl-kirkwood.c	2016-12-11 11:17:54.000000000 -0800
++++ b/drivers/pinctrl/mvebu/pinctrl-kirkwood.c	2016-12-12 23:42:38.837074756 -0800
 @@ -120,7 +120,7 @@
  		MPP_VAR_FUNCTION(0x5, "sata0", "act",    V(0, 1, 1, 1, 1, 0))),
  	MPP_MODE(12,
@@ -5298,9 +4889,9 @@ diff -Naur a/drivers/pinctrl/mvebu/pinctrl-kirkwood.c b/drivers/pinctrl/mvebu/pi
  		MPP_VAR_FUNCTION(0x1, "ts", "mp9",       V(0, 0, 0, 1, 0, 0)),
  		MPP_VAR_FUNCTION(0x2, "tdm", "rx0ql",    V(0, 0, 0, 1, 1, 0)),
 diff -Naur a/drivers/rtc/Kconfig b/drivers/rtc/Kconfig
---- a/drivers/rtc/Kconfig	2016-10-20 01:03:41.000000000 -0700
-+++ b/drivers/rtc/Kconfig	2016-10-20 22:21:41.299221575 -0700
-@@ -251,6 +251,15 @@
+--- a/drivers/rtc/Kconfig	2016-12-11 11:17:54.000000000 -0800
++++ b/drivers/rtc/Kconfig	2016-12-12 23:42:38.847074736 -0800
+@@ -275,6 +275,15 @@
  	  This driver can also be built as a module. If so, the module
  	  will be called rtc-ds1672.
  
@@ -5317,9 +4908,9 @@ diff -Naur a/drivers/rtc/Kconfig b/drivers/rtc/Kconfig
  	tristate "Haoyu Microelectronics HYM8563"
  	depends on OF
 diff -Naur a/drivers/rtc/Makefile b/drivers/rtc/Makefile
---- a/drivers/rtc/Makefile	2016-10-20 01:03:41.000000000 -0700
-+++ b/drivers/rtc/Makefile	2016-10-20 22:21:41.299221575 -0700
-@@ -68,6 +68,7 @@
+--- a/drivers/rtc/Makefile	2016-12-11 11:17:54.000000000 -0800
++++ b/drivers/rtc/Makefile	2016-12-12 23:42:38.847074736 -0800
+@@ -69,6 +69,7 @@
  obj-$(CONFIG_RTC_DRV_GEMINI)	+= rtc-gemini.o
  obj-$(CONFIG_RTC_DRV_GENERIC)	+= rtc-generic.o
  obj-$(CONFIG_RTC_DRV_HID_SENSOR_TIME) += rtc-hid-sensor-time.o
@@ -5329,7 +4920,7 @@ diff -Naur a/drivers/rtc/Makefile b/drivers/rtc/Makefile
  obj-$(CONFIG_RTC_DRV_ISL12022)	+= rtc-isl12022.o
 diff -Naur a/drivers/rtc/rtc-ht1382.c b/drivers/rtc/rtc-ht1382.c
 --- a/drivers/rtc/rtc-ht1382.c	1969-12-31 16:00:00.000000000 -0800
-+++ b/drivers/rtc/rtc-ht1382.c	2016-10-20 22:21:41.309221553 -0700
++++ b/drivers/rtc/rtc-ht1382.c	2016-12-12 23:42:38.857074715 -0800
 @@ -0,0 +1,213 @@
 +/*
 + * Driver for Holtek HT1382 RTC.
@@ -5545,8 +5136,8 @@ diff -Naur a/drivers/rtc/rtc-ht1382.c b/drivers/rtc/rtc-ht1382.c
 +MODULE_DESCRIPTION("Holtek 1382 I2C RTC driver");
 +MODULE_LICENSE("GPL");
 diff -Naur a/include/linux/ide.h b/include/linux/ide.h
---- a/include/linux/ide.h	2016-10-20 01:03:41.000000000 -0700
-+++ b/include/linux/ide.h	2016-10-20 22:21:41.339221488 -0700
+--- a/include/linux/ide.h	2016-12-11 11:17:54.000000000 -0800
++++ b/include/linux/ide.h	2016-12-12 23:42:38.867074694 -0800
 @@ -1542,7 +1542,10 @@
  
  static inline void ide_dump_identify(u8 *id)
@@ -5560,8 +5151,8 @@ diff -Naur a/include/linux/ide.h b/include/linux/ide.h
  
  static inline int hwif_to_node(ide_hwif_t *hwif)
 diff -Naur a/include/linux/leds.h b/include/linux/leds.h
---- a/include/linux/leds.h	2016-10-20 01:03:41.000000000 -0700
-+++ b/include/linux/leds.h	2016-10-20 22:21:41.339221488 -0700
+--- a/include/linux/leds.h	2016-12-11 11:17:54.000000000 -0800
++++ b/include/linux/leds.h	2016-12-12 23:42:38.887074653 -0800
 @@ -1,6 +1,7 @@
  /*
   * Driver model for leds and led triggers
@@ -5582,28 +5173,3 @@ diff -Naur a/include/linux/leds.h b/include/linux/leds.h
  #endif
  
  #ifdef CONFIG_LEDS_TRIGGER_MTD
-diff -Naur a/include/linux/platform_data/nsa3xx-hwmon.h b/include/linux/platform_data/nsa3xx-hwmon.h
---- a/include/linux/platform_data/nsa3xx-hwmon.h	1969-12-31 16:00:00.000000000 -0800
-+++ b/include/linux/platform_data/nsa3xx-hwmon.h	2016-10-20 22:21:41.339221488 -0700
-@@ -0,0 +1,21 @@
-+/*
-+ * include/linux/nsa3xx.hwmon.h
-+ *
-+ * Platform data structure for ZyXEL NSA3xx hwmon driver
-+ *
-+ * This file is licensed under the terms of the GNU General Public
-+ * License version 2.  This program is licensed "as is" without any
-+ * warranty of any kind, whether express or implied.
-+ */
-+
-+#ifndef __LINUX_NSA3XX_HWMON_H
-+#define __LINUX_NSA3XX_HWMON_H
-+
-+struct nsa3xx_hwmon_platform_data {
-+	/* GPIO pins */
-+	unsigned act_pin;
-+	unsigned clk_pin;
-+	unsigned data_pin;
-+};
-+
-+#endif /* __LINUX_NSA3XX_HWMON_H */
