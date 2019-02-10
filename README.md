@@ -11,4 +11,5 @@ This is a mirror of the Linux kernel which has been customized by 'bodhi' to run
 You may also be interested in my other Pogoplug github projects:
 
 * [pogoplug_mobile_uboot_installer](https://github.com/pepaslabs/pogoplug_mobile_uboot_installer)
+* [pogoplug-v4-bodhi-rootfs-debian](https://github.com/pepaslabs/pogoplug-v4-bodhi-rootfs-debian)
 * [pogoplug_static_binaries](https://github.com/pepaslabs/pogoplug_static_binaries)
