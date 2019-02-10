@@ -1,6 +1,6 @@
 diff -Naur a/arch/arm/boot/dts/kirkwood-asus_m25.dts b/arch/arm/boot/dts/kirkwood-asus_m25.dts
 --- a/arch/arm/boot/dts/kirkwood-asus_m25.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-asus_m25.dts	2017-04-09 22:36:47.093320637 -0700
++++ b/arch/arm/boot/dts/kirkwood-asus_m25.dts	2017-05-29 00:48:24.148289214 -0700
 @@ -0,0 +1,334 @@
 +/* 
 + * Device tree file for the Asus-M25 ( Marvell DB-88F6281-BP Development Board )
@@ -337,8 +337,8 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-asus_m25.dts b/arch/arm/boot/dts/kirkwoo
 +
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-dockstar.dts b/arch/arm/boot/dts/kirkwood-dockstar.dts
---- a/arch/arm/boot/dts/kirkwood-dockstar.dts	2017-04-08 00:35:38.000000000 -0700
-+++ b/arch/arm/boot/dts/kirkwood-dockstar.dts	2017-04-09 22:36:47.103320620 -0700
+--- a/arch/arm/boot/dts/kirkwood-dockstar.dts	2017-05-25 06:46:45.000000000 -0700
++++ b/arch/arm/boot/dts/kirkwood-dockstar.dts	2017-05-29 00:48:24.178289159 -0700
 @@ -78,7 +78,6 @@
  	partition@0 {
  		label = "u-boot";
@@ -349,7 +349,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-dockstar.dts b/arch/arm/boot/dts/kirkwoo
  	partition@100000 {
 diff -Naur a/arch/arm/boot/dts/kirkwood-ea4500-dsa.dts b/arch/arm/boot/dts/kirkwood-ea4500-dsa.dts
 --- a/arch/arm/boot/dts/kirkwood-ea4500-dsa.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-ea4500-dsa.dts	2017-04-09 22:36:47.113320603 -0700
++++ b/arch/arm/boot/dts/kirkwood-ea4500-dsa.dts	2017-05-29 00:48:24.188289140 -0700
 @@ -0,0 +1,227 @@
 +/*
 + * kirkwood-ea4500-dsa.dts - Device Tree file for Linksys E4200v2/EA4500 with DSA
@@ -580,7 +580,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-ea4500-dsa.dts b/arch/arm/boot/dts/kirkw
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-ea4500.dts b/arch/arm/boot/dts/kirkwood-ea4500.dts
 --- a/arch/arm/boot/dts/kirkwood-ea4500.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-ea4500.dts	2017-04-09 22:36:47.123320586 -0700
++++ b/arch/arm/boot/dts/kirkwood-ea4500.dts	2017-05-29 00:48:24.198289122 -0700
 @@ -0,0 +1,616 @@
 +/dts-v1/;
 +
@@ -1200,7 +1200,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-ea4500.dts b/arch/arm/boot/dts/kirkwood-
 +};
 diff -Naur a/arch/arm/boot/dts/kirkwood-goflexhome.dts b/arch/arm/boot/dts/kirkwood-goflexhome.dts
 --- a/arch/arm/boot/dts/kirkwood-goflexhome.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-goflexhome.dts	2017-04-09 22:36:47.133320568 -0700
++++ b/arch/arm/boot/dts/kirkwood-goflexhome.dts	2017-05-29 00:48:24.208289103 -0700
 @@ -0,0 +1,126 @@
 +/dts-v1/;
 +
@@ -1329,8 +1329,8 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-goflexhome.dts b/arch/arm/boot/dts/kirkw
 +	};
 +};
 diff -Naur a/arch/arm/boot/dts/kirkwood-goflexnet.dts b/arch/arm/boot/dts/kirkwood-goflexnet.dts
---- a/arch/arm/boot/dts/kirkwood-goflexnet.dts	2017-04-08 00:35:38.000000000 -0700
-+++ b/arch/arm/boot/dts/kirkwood-goflexnet.dts	2017-04-09 22:36:47.133320568 -0700
+--- a/arch/arm/boot/dts/kirkwood-goflexnet.dts	2017-05-25 06:46:45.000000000 -0700
++++ b/arch/arm/boot/dts/kirkwood-goflexnet.dts	2017-05-29 00:48:24.208289103 -0700
 @@ -108,6 +108,7 @@
  		left3 {
  			label = "status:white:left3";
@@ -1357,7 +1357,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-goflexnet.dts b/arch/arm/boot/dts/kirkwo
  	partition@100000 {
 diff -Naur a/arch/arm/boot/dts/kirkwood-iomega_ix4_200d.dts b/arch/arm/boot/dts/kirkwood-iomega_ix4_200d.dts
 --- a/arch/arm/boot/dts/kirkwood-iomega_ix4_200d.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-iomega_ix4_200d.dts	2017-04-09 22:36:47.133320568 -0700
++++ b/arch/arm/boot/dts/kirkwood-iomega_ix4_200d.dts	2017-05-29 00:48:24.218289085 -0700
 @@ -0,0 +1,109 @@
 +/*
 + *  Device tree file for the Iomega ix4-200d
@@ -1470,7 +1470,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-iomega_ix4_200d.dts b/arch/arm/boot/dts/
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-lenovo-ix2-common.dtsi b/arch/arm/boot/dts/kirkwood-lenovo-ix2-common.dtsi
 --- a/arch/arm/boot/dts/kirkwood-lenovo-ix2-common.dtsi	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-lenovo-ix2-common.dtsi	2017-04-09 22:36:47.133320568 -0700
++++ b/arch/arm/boot/dts/kirkwood-lenovo-ix2-common.dtsi	2017-05-29 00:48:24.218289085 -0700
 @@ -0,0 +1,210 @@
 +#include "kirkwood.dtsi"
 +#include "kirkwood-6282.dtsi"
@@ -1684,7 +1684,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-lenovo-ix2-common.dtsi b/arch/arm/boot/d
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-lenovo-ix2-ng.dts b/arch/arm/boot/dts/kirkwood-lenovo-ix2-ng.dts
 --- a/arch/arm/boot/dts/kirkwood-lenovo-ix2-ng.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-lenovo-ix2-ng.dts	2017-04-09 22:36:47.133320568 -0700
++++ b/arch/arm/boot/dts/kirkwood-lenovo-ix2-ng.dts	2017-05-29 00:48:24.218289085 -0700
 @@ -0,0 +1,55 @@
 +/* Device tree file for the Lenovo IOMEGA IX2-ng NAS box.
 + *
@@ -1743,7 +1743,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-lenovo-ix2-ng.dts b/arch/arm/boot/dts/ki
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-n1t1.dts b/arch/arm/boot/dts/kirkwood-n1t1.dts
 --- a/arch/arm/boot/dts/kirkwood-n1t1.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-n1t1.dts	2017-04-09 22:36:47.143320551 -0700
++++ b/arch/arm/boot/dts/kirkwood-n1t1.dts	2017-05-29 00:48:24.218289085 -0700
 @@ -0,0 +1,233 @@
 +/* Device tree file for the LG N1T1  NAS box.
 + *
@@ -1980,7 +1980,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-n1t1.dts b/arch/arm/boot/dts/kirkwood-n1
 +};
 diff -Naur a/arch/arm/boot/dts/kirkwood-netgear_stora_ms2000.dts b/arch/arm/boot/dts/kirkwood-netgear_stora_ms2000.dts
 --- a/arch/arm/boot/dts/kirkwood-netgear_stora_ms2000.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-netgear_stora_ms2000.dts	2017-04-09 22:36:47.143320551 -0700
++++ b/arch/arm/boot/dts/kirkwood-netgear_stora_ms2000.dts	2017-05-29 00:48:24.218289085 -0700
 @@ -0,0 +1,234 @@
 +/* 
 + * Device tree file for the Netgear Stora MS2000 / MS2110 box.
@@ -2218,7 +2218,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-netgear_stora_ms2000.dts b/arch/arm/boot
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-nsa310b-lmsensor-redusbled.dts b/arch/arm/boot/dts/kirkwood-nsa310b-lmsensor-redusbled.dts
 --- a/arch/arm/boot/dts/kirkwood-nsa310b-lmsensor-redusbled.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-nsa310b-lmsensor-redusbled.dts	2017-04-09 22:36:47.143320551 -0700
++++ b/arch/arm/boot/dts/kirkwood-nsa310b-lmsensor-redusbled.dts	2017-05-29 00:48:24.228289066 -0700
 @@ -0,0 +1,132 @@
 +/* Device tree file for the Zyxel NSA 310 NAS box.
 + *
@@ -2354,7 +2354,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-nsa310b-lmsensor-redusbled.dts b/arch/ar
 +};
 diff -Naur a/arch/arm/boot/dts/kirkwood-nsa310s.dts b/arch/arm/boot/dts/kirkwood-nsa310s.dts
 --- a/arch/arm/boot/dts/kirkwood-nsa310s.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-nsa310s.dts	2017-04-09 22:36:47.143320551 -0700
++++ b/arch/arm/boot/dts/kirkwood-nsa310s.dts	2017-05-29 00:48:24.228289066 -0700
 @@ -0,0 +1,332 @@
 +/* 
 + * Device tree file for the Zyxel NSA 310S NAS box.
@@ -2690,7 +2690,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-nsa310s.dts b/arch/arm/boot/dts/kirkwood
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-nsa320s.dts b/arch/arm/boot/dts/kirkwood-nsa320s.dts
 --- a/arch/arm/boot/dts/kirkwood-nsa320s.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-nsa320s.dts	2017-04-09 22:36:47.153320534 -0700
++++ b/arch/arm/boot/dts/kirkwood-nsa320s.dts	2017-05-29 00:48:24.248289029 -0700
 @@ -0,0 +1,334 @@
 +/* 
 + * Device tree file for the Zyxel NSA 320S NAS box.
@@ -3027,8 +3027,8 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-nsa320s.dts b/arch/arm/boot/dts/kirkwood
 +
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-nsa325.dts b/arch/arm/boot/dts/kirkwood-nsa325.dts
---- a/arch/arm/boot/dts/kirkwood-nsa325.dts	2017-04-08 00:35:38.000000000 -0700
-+++ b/arch/arm/boot/dts/kirkwood-nsa325.dts	2017-04-09 22:36:47.163320517 -0700
+--- a/arch/arm/boot/dts/kirkwood-nsa325.dts	2017-05-25 06:46:45.000000000 -0700
++++ b/arch/arm/boot/dts/kirkwood-nsa325.dts	2017-05-29 00:48:24.258289011 -0700
 @@ -1,18 +1,14 @@
 -/* Device tree file for the Zyxel NSA 325 NAS box.
 +/*
@@ -3429,8 +3429,8 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-nsa325.dts b/arch/arm/boot/dts/kirkwood-
  };
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-pogo_e02.dts b/arch/arm/boot/dts/kirkwood-pogo_e02.dts
---- a/arch/arm/boot/dts/kirkwood-pogo_e02.dts	2017-04-08 00:35:38.000000000 -0700
-+++ b/arch/arm/boot/dts/kirkwood-pogo_e02.dts	2017-04-09 22:36:47.163320517 -0700
+--- a/arch/arm/boot/dts/kirkwood-pogo_e02.dts	2017-05-25 06:46:45.000000000 -0700
++++ b/arch/arm/boot/dts/kirkwood-pogo_e02.dts	2017-05-29 00:48:24.258289011 -0700
 @@ -1,26 +1,11 @@
 -/*
 - * kirkwood-pogo_e02.dts - Device tree file for Pogoplug E02
@@ -3583,8 +3583,8 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-pogo_e02.dts b/arch/arm/boot/dts/kirkwoo
  
 diff -Naur a/arch/arm/boot/dts/kirkwood-pogoplug_v4.dts b/arch/arm/boot/dts/kirkwood-pogoplug_v4.dts
 --- a/arch/arm/boot/dts/kirkwood-pogoplug_v4.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-pogoplug_v4.dts	2017-04-09 22:36:47.163320517 -0700
-@@ -0,0 +1,169 @@
++++ b/arch/arm/boot/dts/kirkwood-pogoplug_v4.dts	2017-05-29 13:19:54.976142763 -0700
+@@ -0,0 +1,167 @@
 +/* 
 + * Device tree file for the Pogoplug V4/Mobile
 + *
@@ -3637,9 +3637,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-pogoplug_v4.dts b/arch/arm/boot/dts/kirk
 +
 +		sata@80000 {
 +			status = "okay";
-+			nr-ports = <1>;
-+			phys = <&sata_phy0>;
-+			phy-names = "port0";
++			nr-ports = <2>;
 +		};
 +
 +		mvsdio@90000 {
@@ -3756,7 +3754,7 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-pogoplug_v4.dts b/arch/arm/boot/dts/kirk
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-qizhitong_501m_v2.dts b/arch/arm/boot/dts/kirkwood-qizhitong_501m_v2.dts
 --- a/arch/arm/boot/dts/kirkwood-qizhitong_501m_v2.dts	1969-12-31 16:00:00.000000000 -0800
-+++ b/arch/arm/boot/dts/kirkwood-qizhitong_501m_v2.dts	2017-04-09 22:36:47.163320517 -0700
++++ b/arch/arm/boot/dts/kirkwood-qizhitong_501m_v2.dts	2017-05-29 00:48:24.258289011 -0700
 @@ -0,0 +1,127 @@
 +/* Device tree file for the QiZhiTong 501M V2 box.
 + *
@@ -3886,8 +3884,8 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-qizhitong_501m_v2.dts b/arch/arm/boot/dt
 +
 +
 diff -Naur a/arch/arm/boot/dts/kirkwood-t5325.dts b/arch/arm/boot/dts/kirkwood-t5325.dts
---- a/arch/arm/boot/dts/kirkwood-t5325.dts	2017-04-08 00:35:38.000000000 -0700
-+++ b/arch/arm/boot/dts/kirkwood-t5325.dts	2017-04-09 22:36:47.173320500 -0700
+--- a/arch/arm/boot/dts/kirkwood-t5325.dts	2017-05-25 06:46:45.000000000 -0700
++++ b/arch/arm/boot/dts/kirkwood-t5325.dts	2017-05-29 00:48:24.268288992 -0700
 @@ -174,9 +174,21 @@
  		compatible = "gpio-poweroff";
  		pinctrl-0 = <&pmx_power_off>;
@@ -3929,9 +3927,9 @@ diff -Naur a/arch/arm/boot/dts/kirkwood-t5325.dts b/arch/arm/boot/dts/kirkwood-t
 +        status = "ok";
 +};
 diff -Naur a/arch/arm/boot/dts/Makefile b/arch/arm/boot/dts/Makefile
---- a/arch/arm/boot/dts/Makefile	2017-04-08 00:35:38.000000000 -0700
-+++ b/arch/arm/boot/dts/Makefile	2017-04-09 22:36:47.203320448 -0700
-@@ -189,8 +189,8 @@
+--- a/arch/arm/boot/dts/Makefile	2017-05-25 06:46:45.000000000 -0700
++++ b/arch/arm/boot/dts/Makefile	2017-05-29 00:48:24.278288974 -0700
+@@ -194,8 +194,8 @@
  	keystone-k2l-evm.dtb \
  	keystone-k2e-evm.dtb \
  	keystone-k2g-evm.dtb
@@ -3942,7 +3940,7 @@ diff -Naur a/arch/arm/boot/dts/Makefile b/arch/arm/boot/dts/Makefile
  	kirkwood-blackarmor-nas220.dtb \
  	kirkwood-cloudbox.dtb \
  	kirkwood-d2net.dtb \
-@@ -214,14 +214,19 @@
+@@ -219,14 +219,19 @@
  	kirkwood-ds411.dtb \
  	kirkwood-ds411j.dtb \
  	kirkwood-ds411slim.dtb \
@@ -3962,7 +3960,7 @@ diff -Naur a/arch/arm/boot/dts/Makefile b/arch/arm/boot/dts/Makefile
  	kirkwood-linkstation-lsqvl.dtb \
  	kirkwood-linkstation-lsvl.dtb \
  	kirkwood-linkstation-lswsxl.dtb \
-@@ -237,13 +242,18 @@
+@@ -242,13 +247,18 @@
  	kirkwood-net5big.dtb \
  	kirkwood-netgear_readynas_duo_v2.dtb \
  	kirkwood-netgear_readynas_nv+_v2.dtb \
@@ -3982,7 +3980,7 @@ diff -Naur a/arch/arm/boot/dts/Makefile b/arch/arm/boot/dts/Makefile
  	kirkwood-nsa325.dtb \
  	kirkwood-openblocks_a6.dtb \
  	kirkwood-openblocks_a7.dtb \
-@@ -251,7 +261,8 @@
+@@ -256,7 +266,8 @@
  	kirkwood-openrd-client.dtb \
  	kirkwood-openrd-ultimate.dtb \
  	kirkwood-pogo_e02.dtb \
@@ -3993,9 +3991,9 @@ diff -Naur a/arch/arm/boot/dts/Makefile b/arch/arm/boot/dts/Makefile
  	kirkwood-rd88f6281-z0.dtb \
  	kirkwood-rd88f6281-a.dtb \
 diff -Naur a/arch/arm/plat-orion/common.c b/arch/arm/plat-orion/common.c
---- a/arch/arm/plat-orion/common.c	2017-04-08 00:35:38.000000000 -0700
-+++ b/arch/arm/plat-orion/common.c	2017-04-09 22:36:47.213320431 -0700
-@@ -258,7 +258,9 @@
+--- a/arch/arm/plat-orion/common.c	2017-05-25 06:46:45.000000000 -0700
++++ b/arch/arm/plat-orion/common.c	2017-05-29 00:48:24.298288937 -0700
+@@ -259,7 +259,9 @@
  /*****************************************************************************
   * GE00
   ****************************************************************************/
@@ -4007,8 +4005,8 @@ diff -Naur a/arch/arm/plat-orion/common.c b/arch/arm/plat-orion/common.c
  static struct resource orion_ge00_shared_resources[] = {
  	{
 diff -Naur a/arch/arm/tools/mach-types b/arch/arm/tools/mach-types
---- a/arch/arm/tools/mach-types	2017-04-08 00:35:38.000000000 -0700
-+++ b/arch/arm/tools/mach-types	2017-04-09 22:36:47.223320414 -0700
+--- a/arch/arm/tools/mach-types	2017-05-25 06:46:45.000000000 -0700
++++ b/arch/arm/tools/mach-types	2017-05-29 00:48:24.308288918 -0700
 @@ -118,6 +118,7 @@
  omap_osk		MACH_OMAP_OSK		OMAP_OSK		515
  tosa			MACH_TOSA		TOSA			520
@@ -4032,8 +4030,8 @@ diff -Naur a/arch/arm/tools/mach-types b/arch/arm/tools/mach-types
 +nsa310			MACH_NSA310		NSA310			4022
 +nsa310s                 MACH_NSA310S            NSA310S                 4931
 diff -Naur a/drivers/ata/libata-core.c b/drivers/ata/libata-core.c
---- a/drivers/ata/libata-core.c	2017-04-08 00:35:38.000000000 -0700
-+++ b/drivers/ata/libata-core.c	2017-04-09 22:36:47.303320276 -0700
+--- a/drivers/ata/libata-core.c	2017-05-25 06:46:45.000000000 -0700
++++ b/drivers/ata/libata-core.c	2017-05-29 00:48:24.348288844 -0700
 @@ -5,6 +5,7 @@
   *    		    Please ALWAYS copy linux-ide@vger.kernel.org
   *		    on emails.
@@ -4042,7 +4040,7 @@ diff -Naur a/drivers/ata/libata-core.c b/drivers/ata/libata-core.c
   *  Copyright 2003-2004 Red Hat, Inc.  All rights reserved.
   *  Copyright 2003-2004 Jeff Garzik
   *
-@@ -5122,7 +5123,7 @@
+@@ -5131,7 +5132,7 @@
  	struct ata_port *ap = qc->ap;
  
  	/* Trigger the LED (if available) */
@@ -4051,10 +4049,56 @@ diff -Naur a/drivers/ata/libata-core.c b/drivers/ata/libata-core.c
  
  	/* XXX: New EH and old EH use different mechanisms to
  	 * synchronize EH with regular execution path.
+diff -Naur a/drivers/ata/sata_mv.c b/drivers/ata/sata_mv.c
+--- a/drivers/ata/sata_mv.c	2017-05-25 06:46:45.000000000 -0700
++++ b/drivers/ata/sata_mv.c	2017-05-20 05:38:27.000000000 -0700
+@@ -4067,7 +4067,6 @@
+ 	struct ata_host *host;
+ 	struct mv_host_priv *hpriv;
+ 	struct resource *res;
+-	void __iomem *mmio;
+ 	int n_ports = 0, irq = 0;
+ 	int rc;
+ 	int port;
+@@ -4086,9 +4085,8 @@
+ 	 * Get the register base first
+ 	 */
+ 	res = platform_get_resource(pdev, IORESOURCE_MEM, 0);
+-	mmio = devm_ioremap_resource(&pdev->dev, res);
+-	if (IS_ERR(mmio))
+-		return PTR_ERR(mmio);
++	if (res == NULL)
++		return -EINVAL;
+ 
+ 	/* allocate host */
+ 	if (pdev->dev.of_node) {
+@@ -4132,7 +4130,12 @@
+ 	hpriv->board_idx = chip_soc;
+ 
+ 	host->iomap = NULL;
+-	hpriv->base = mmio - SATAHC0_REG_BASE;
++	hpriv->base = devm_ioremap(&pdev->dev, res->start,
++				   resource_size(res));
++	if (!hpriv->base)
++		return -ENOMEM;
++
++	hpriv->base -= SATAHC0_REG_BASE;
+ 
+ 	hpriv->clk = clk_get(&pdev->dev, NULL);
+ 	if (IS_ERR(hpriv->clk))
+@@ -4526,7 +4529,7 @@
+ 
+ MODULE_AUTHOR("Brett Russ");
+ MODULE_DESCRIPTION("SCSI low-level driver for Marvell SATA controllers");
+-MODULE_LICENSE("GPL v2");
++MODULE_LICENSE("GPL");
+ MODULE_DEVICE_TABLE(pci, mv_pci_tbl);
+ MODULE_VERSION(DRV_VERSION);
+ MODULE_ALIAS("platform:" DRV_NAME);
 diff -Naur a/drivers/leds/Kconfig b/drivers/leds/Kconfig
---- a/drivers/leds/Kconfig	2017-04-08 00:35:38.000000000 -0700
-+++ b/drivers/leds/Kconfig	2017-04-09 22:36:47.323320242 -0700
-@@ -678,6 +678,106 @@
+--- a/drivers/leds/Kconfig	2017-05-25 06:46:45.000000000 -0700
++++ b/drivers/leds/Kconfig	2017-05-29 00:48:24.368288807 -0700
+@@ -687,6 +687,106 @@
  	  To compile this driver as a module, choose M here: the module
  	  will be called leds-nic78bx.
  
@@ -4162,8 +4206,8 @@ diff -Naur a/drivers/leds/Kconfig b/drivers/leds/Kconfig
  source "drivers/leds/trigger/Kconfig"
  
 diff -Naur a/drivers/leds/trigger/ledtrig-disk.c b/drivers/leds/trigger/ledtrig-disk.c
---- a/drivers/leds/trigger/ledtrig-disk.c	2017-04-08 00:35:38.000000000 -0700
-+++ b/drivers/leds/trigger/ledtrig-disk.c	2017-04-09 22:36:47.333320225 -0700
+--- a/drivers/leds/trigger/ledtrig-disk.c	2017-05-25 06:46:45.000000000 -0700
++++ b/drivers/leds/trigger/ledtrig-disk.c	2017-05-29 00:48:24.378288788 -0700
 @@ -1,6 +1,9 @@
  /*
   * LED Disk Activity Trigger
@@ -4220,8 +4264,8 @@ diff -Naur a/drivers/leds/trigger/ledtrig-disk.c b/drivers/leds/trigger/ledtrig-
  	return 0;
  }
 diff -Naur a/drivers/media/rc/Kconfig b/drivers/media/rc/Kconfig
---- a/drivers/media/rc/Kconfig	2017-04-08 00:35:38.000000000 -0700
-+++ b/drivers/media/rc/Kconfig	2017-04-09 22:36:47.353320191 -0700
+--- a/drivers/media/rc/Kconfig	2017-05-25 06:46:45.000000000 -0700
++++ b/drivers/media/rc/Kconfig	2017-05-29 00:48:24.388288770 -0700
 @@ -23,6 +23,17 @@
  	   LIRC daemon handles protocol decoding for IR reception and
  	   encoding for IR transmitting (aka "blasting").
@@ -4242,7 +4286,7 @@ diff -Naur a/drivers/media/rc/Kconfig b/drivers/media/rc/Kconfig
  	depends on RC_CORE
 diff -Naur a/drivers/media/rc/lirc_rpi.c b/drivers/media/rc/lirc_rpi.c
 --- a/drivers/media/rc/lirc_rpi.c	1969-12-31 16:00:00.000000000 -0800
-+++ b/drivers/media/rc/lirc_rpi.c	2017-04-09 22:36:47.353320191 -0700
++++ b/drivers/media/rc/lirc_rpi.c	2017-05-29 00:48:24.388288770 -0700
 @@ -0,0 +1,797 @@
 +/*
 + * lirc_rpi.c
@@ -5042,8 +5086,8 @@ diff -Naur a/drivers/media/rc/lirc_rpi.c b/drivers/media/rc/lirc_rpi.c
 +module_param(debug, bool, S_IRUGO | S_IWUSR);
 +MODULE_PARM_DESC(debug, "Enable debugging messages");
 diff -Naur a/drivers/media/rc/Makefile b/drivers/media/rc/Makefile
---- a/drivers/media/rc/Makefile	2017-04-08 00:35:38.000000000 -0700
-+++ b/drivers/media/rc/Makefile	2017-04-09 22:36:47.353320191 -0700
+--- a/drivers/media/rc/Makefile	2017-05-25 06:46:45.000000000 -0700
++++ b/drivers/media/rc/Makefile	2017-05-29 00:48:24.398288751 -0700
 @@ -4,6 +4,7 @@
  
  obj-$(CONFIG_RC_CORE) += rc-core.o
@@ -5053,9 +5097,9 @@ diff -Naur a/drivers/media/rc/Makefile b/drivers/media/rc/Makefile
  obj-$(CONFIG_IR_RC5_DECODER) += ir-rc5-decoder.o
  obj-$(CONFIG_IR_RC6_DECODER) += ir-rc6-decoder.o
 diff -Naur a/drivers/mmc/core/sd.c b/drivers/mmc/core/sd.c
---- a/drivers/mmc/core/sd.c	2017-04-08 00:35:38.000000000 -0700
-+++ b/drivers/mmc/core/sd.c	2017-04-09 22:36:47.373320156 -0700
-@@ -363,6 +363,15 @@
+--- a/drivers/mmc/core/sd.c	2017-05-25 06:46:45.000000000 -0700
++++ b/drivers/mmc/core/sd.c	2017-05-29 00:48:24.408288733 -0700
+@@ -365,6 +365,15 @@
  		return -ENOMEM;
  	}
  
@@ -5072,8 +5116,8 @@ diff -Naur a/drivers/mmc/core/sd.c b/drivers/mmc/core/sd.c
  	if (err)
  		goto out;
 diff -Naur a/drivers/net/ethernet/marvell/mv643xx_eth.c b/drivers/net/ethernet/marvell/mv643xx_eth.c
---- a/drivers/net/ethernet/marvell/mv643xx_eth.c	2017-04-08 00:35:38.000000000 -0700
-+++ b/drivers/net/ethernet/marvell/mv643xx_eth.c	2017-04-09 22:36:47.413320087 -0700
+--- a/drivers/net/ethernet/marvell/mv643xx_eth.c	2017-05-25 06:46:45.000000000 -0700
++++ b/drivers/net/ethernet/marvell/mv643xx_eth.c	2017-05-29 00:48:24.468288622 -0700
 @@ -1,5 +1,11 @@
  /*
   * Driver for Marvell Discovery (MV643XX) and Marvell Orion ethernet ports
@@ -5086,7 +5130,7 @@ diff -Naur a/drivers/net/ethernet/marvell/mv643xx_eth.c b/drivers/net/ethernet/m
   * Copyright (C) 2002 Matthew Dharm <mdharm@momenco.com>
   *
   * Based on the 64360 driver from:
-@@ -2350,6 +2356,24 @@
+@@ -2348,6 +2354,24 @@
  		mv643xx_eth_set_link_ksettings(
  			dev, (const struct ethtool_link_ksettings *)&cmd);
  		phy_start(dev->phydev);
@@ -5111,7 +5155,7 @@ diff -Naur a/drivers/net/ethernet/marvell/mv643xx_eth.c b/drivers/net/ethernet/m
  	}
  
  	/*
-@@ -3159,8 +3183,20 @@
+@@ -3157,8 +3181,20 @@
  					get_phy_mode(mp));
  		if (!phydev)
  			err = -ENODEV;
@@ -5133,7 +5177,7 @@ diff -Naur a/drivers/net/ethernet/marvell/mv643xx_eth.c b/drivers/net/ethernet/m
  	} else if (pd->phy_addr != MV643XX_ETH_PHY_NONE) {
  		phydev = phy_scan(mp, pd->phy_addr);
  
-@@ -3205,7 +3241,7 @@
+@@ -3203,7 +3239,7 @@
  	dev->watchdog_timeo = 2 * HZ;
  	dev->base_addr = 0;
  
@@ -5143,8 +5187,8 @@ diff -Naur a/drivers/net/ethernet/marvell/mv643xx_eth.c b/drivers/net/ethernet/m
  
  	dev->features |= NETIF_F_RXCSUM;
 diff -Naur a/drivers/net/Kconfig b/drivers/net/Kconfig
---- a/drivers/net/Kconfig	2017-04-08 00:35:38.000000000 -0700
-+++ b/drivers/net/Kconfig	2017-04-09 22:36:47.433320053 -0700
+--- a/drivers/net/Kconfig	2017-05-25 06:46:45.000000000 -0700
++++ b/drivers/net/Kconfig	2017-05-29 00:48:24.468288622 -0700
 @@ -26,6 +26,7 @@
  if NETDEVICES
  
@@ -5154,9 +5198,9 @@ diff -Naur a/drivers/net/Kconfig b/drivers/net/Kconfig
  
  config NET_CORE
 diff -Naur a/drivers/pinctrl/mvebu/pinctrl-kirkwood.c b/drivers/pinctrl/mvebu/pinctrl-kirkwood.c
---- a/drivers/pinctrl/mvebu/pinctrl-kirkwood.c	2017-04-08 00:35:38.000000000 -0700
-+++ b/drivers/pinctrl/mvebu/pinctrl-kirkwood.c	2017-04-09 22:36:47.443320036 -0700
-@@ -120,7 +120,7 @@
+--- a/drivers/pinctrl/mvebu/pinctrl-kirkwood.c	2017-05-25 06:46:45.000000000 -0700
++++ b/drivers/pinctrl/mvebu/pinctrl-kirkwood.c	2017-05-29 00:48:24.488288585 -0700
+@@ -107,7 +107,7 @@
  		MPP_VAR_FUNCTION(0x5, "sata0", "act",    V(0, 1, 1, 1, 1, 0))),
  	MPP_MODE(12,
  		MPP_VAR_FUNCTION(0x0, "gpo", NULL,       V(1, 1, 1, 0, 1, 0)),
@@ -5165,7 +5209,7 @@ diff -Naur a/drivers/pinctrl/mvebu/pinctrl-kirkwood.c b/drivers/pinctrl/mvebu/pi
  		MPP_VAR_FUNCTION(0x1, "sdio", "clk",     V(1, 1, 1, 1, 1, 0)),
  		MPP_VAR_FUNCTION(0xa, "audio", "spdifo", V(0, 0, 0, 0, 1, 0)),
  		MPP_VAR_FUNCTION(0xb, "spi", "mosi",     V(0, 0, 0, 0, 1, 0)),
-@@ -351,7 +351,7 @@
+@@ -338,7 +338,7 @@
  		MPP_VAR_FUNCTION(0x2, "tdm", "fs",       V(0, 0, 0, 1, 1, 0)),
  		MPP_VAR_FUNCTION(0xb, "lcd", "hsync",    V(0, 0, 0, 0, 1, 0))),
  	MPP_MODE(47,
@@ -5174,7 +5218,7 @@ diff -Naur a/drivers/pinctrl/mvebu/pinctrl-kirkwood.c b/drivers/pinctrl/mvebu/pi
  		MPP_VAR_FUNCTION(0x1, "ts", "mp11",      V(0, 0, 0, 1, 1, 0)),
  		MPP_VAR_FUNCTION(0x2, "tdm", "drx",      V(0, 0, 0, 1, 1, 0)),
  		MPP_VAR_FUNCTION(0xb, "lcd", "vsync",    V(0, 0, 0, 0, 1, 0))),
-@@ -361,7 +361,7 @@
+@@ -348,7 +348,7 @@
  		MPP_VAR_FUNCTION(0x2, "tdm", "dtx",      V(0, 0, 0, 1, 1, 0)),
  		MPP_VAR_FUNCTION(0xb, "lcd", "d16",      V(0, 0, 0, 0, 1, 0))),
  	MPP_MODE(49,
@@ -5184,8 +5228,8 @@ diff -Naur a/drivers/pinctrl/mvebu/pinctrl-kirkwood.c b/drivers/pinctrl/mvebu/pi
  		MPP_VAR_FUNCTION(0x1, "ts", "mp9",       V(0, 0, 0, 1, 0, 0)),
  		MPP_VAR_FUNCTION(0x2, "tdm", "rx0ql",    V(0, 0, 0, 1, 1, 0)),
 diff -Naur a/drivers/rtc/Kconfig b/drivers/rtc/Kconfig
---- a/drivers/rtc/Kconfig	2017-04-08 00:35:38.000000000 -0700
-+++ b/drivers/rtc/Kconfig	2017-04-09 22:36:47.463320002 -0700
+--- a/drivers/rtc/Kconfig	2017-05-25 06:46:45.000000000 -0700
++++ b/drivers/rtc/Kconfig	2017-05-29 00:48:24.498288566 -0700
 @@ -275,6 +275,15 @@
  	  This driver can also be built as a module. If so, the module
  	  will be called rtc-ds1672.
@@ -5203,8 +5247,8 @@ diff -Naur a/drivers/rtc/Kconfig b/drivers/rtc/Kconfig
  	tristate "Haoyu Microelectronics HYM8563"
  	depends on OF
 diff -Naur a/drivers/rtc/Makefile b/drivers/rtc/Makefile
---- a/drivers/rtc/Makefile	2017-04-08 00:35:38.000000000 -0700
-+++ b/drivers/rtc/Makefile	2017-04-09 22:36:47.463320002 -0700
+--- a/drivers/rtc/Makefile	2017-05-25 06:46:45.000000000 -0700
++++ b/drivers/rtc/Makefile	2017-05-29 00:48:24.498288566 -0700
 @@ -69,6 +69,7 @@
  obj-$(CONFIG_RTC_DRV_GEMINI)	+= rtc-gemini.o
  obj-$(CONFIG_RTC_DRV_GENERIC)	+= rtc-generic.o
@@ -5215,7 +5259,7 @@ diff -Naur a/drivers/rtc/Makefile b/drivers/rtc/Makefile
  obj-$(CONFIG_RTC_DRV_ISL12022)	+= rtc-isl12022.o
 diff -Naur a/drivers/rtc/rtc-ht1382.c b/drivers/rtc/rtc-ht1382.c
 --- a/drivers/rtc/rtc-ht1382.c	1969-12-31 16:00:00.000000000 -0800
-+++ b/drivers/rtc/rtc-ht1382.c	2017-04-09 22:36:47.463320002 -0700
++++ b/drivers/rtc/rtc-ht1382.c	2017-05-29 00:48:24.498288566 -0700
 @@ -0,0 +1,213 @@
 +/*
 + * Driver for Holtek HT1382 RTC.
@@ -5431,9 +5475,9 @@ diff -Naur a/drivers/rtc/rtc-ht1382.c b/drivers/rtc/rtc-ht1382.c
 +MODULE_DESCRIPTION("Holtek 1382 I2C RTC driver");
 +MODULE_LICENSE("GPL");
 diff -Naur a/include/linux/ide.h b/include/linux/ide.h
---- a/include/linux/ide.h	2017-04-08 00:35:38.000000000 -0700
-+++ b/include/linux/ide.h	2017-04-09 22:36:47.473319984 -0700
-@@ -1542,7 +1542,10 @@
+--- a/include/linux/ide.h	2017-05-25 06:46:45.000000000 -0700
++++ b/include/linux/ide.h	2017-05-29 00:48:24.518288529 -0700
+@@ -1578,7 +1578,10 @@
  
  static inline void ide_dump_identify(u8 *id)
  {
@@ -5446,8 +5490,8 @@ diff -Naur a/include/linux/ide.h b/include/linux/ide.h
  
  static inline int hwif_to_node(ide_hwif_t *hwif)
 diff -Naur a/include/linux/leds.h b/include/linux/leds.h
---- a/include/linux/leds.h	2017-04-08 00:35:38.000000000 -0700
-+++ b/include/linux/leds.h	2017-04-09 22:36:47.493319950 -0700
+--- a/include/linux/leds.h	2017-05-25 06:46:45.000000000 -0700
++++ b/include/linux/leds.h	2017-05-29 00:48:24.528288510 -0700
 @@ -1,6 +1,7 @@
  /*
   * Driver model for leds and led triggers
@@ -5456,7 +5500,7 @@ diff -Naur a/include/linux/leds.h b/include/linux/leds.h
   * Copyright (C) 2005 John Lenz <lenz@cs.wisc.edu>
   * Copyright (C) 2005 Richard Purdie <rpurdie@openedhand.com>
   *
-@@ -331,9 +332,9 @@
+@@ -339,9 +340,9 @@
  
  /* Trigger specific functions */
  #ifdef CONFIG_LEDS_TRIGGER_DISK
@@ -5470,7 +5514,7 @@ diff -Naur a/include/linux/leds.h b/include/linux/leds.h
  #ifdef CONFIG_LEDS_TRIGGER_MTD
 diff -Naur a/REPORTING-BUGS b/REPORTING-BUGS
 --- a/REPORTING-BUGS	1969-12-31 16:00:00.000000000 -0800
-+++ b/REPORTING-BUGS	2017-04-09 22:36:47.493319950 -0700
++++ b/REPORTING-BUGS	2017-05-29 00:48:24.548288473 -0700
 @@ -0,0 +1,174 @@
 +Background
 +==========
