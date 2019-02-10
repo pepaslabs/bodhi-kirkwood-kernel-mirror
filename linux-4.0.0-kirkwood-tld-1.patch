@@ -1840,28 +1840,6 @@ diff -Naur a/drivers/ata/sata_mv.c b/drivers/ata/sata_mv.c
  	if (pp->pp_flags & MV_PP_FLAG_EDMA_EN) {
  		int using_ncq = ((pp->pp_flags & MV_PP_FLAG_NCQ_EN) != 0);
  		if (want_ncq != using_ncq)
-diff -Naur a/drivers/bus/mvebu-mbus.c b/drivers/bus/mvebu-mbus.c
---- a/drivers/bus/mvebu-mbus.c	2015-04-12 15:12:50.000000000 -0700
-+++ b/drivers/bus/mvebu-mbus.c	2015-04-30 05:15:05.750856041 -0700
-@@ -70,6 +70,7 @@
-  */
- #define WIN_CTRL_OFF		0x0000
- #define   WIN_CTRL_ENABLE       BIT(0)
-+/* Only on HW I/O coherency capable platforms */
- #define   WIN_CTRL_SYNCBARRIER  BIT(1)
- #define   WIN_CTRL_TGT_MASK     0xf0
- #define   WIN_CTRL_TGT_SHIFT    4
-@@ -323,8 +324,9 @@
- 	ctrl = ((size - 1) & WIN_CTRL_SIZE_MASK) |
- 		(attr << WIN_CTRL_ATTR_SHIFT)    |
- 		(target << WIN_CTRL_TGT_SHIFT)   |
--		WIN_CTRL_SYNCBARRIER             |
- 		WIN_CTRL_ENABLE;
-+	if (mbus->hw_io_coherency)
-+		ctrl |= WIN_CTRL_SYNCBARRIER;
- 
- 	writel(base & WIN_BASE_LOW, addr + WIN_BASE_OFF);
- 	writel(ctrl, addr + WIN_CTRL_OFF);
 diff -Naur a/drivers/hwmon/Kconfig b/drivers/hwmon/Kconfig
 --- a/drivers/hwmon/Kconfig	2015-04-12 15:12:50.000000000 -0700
 +++ b/drivers/hwmon/Kconfig	2015-04-12 22:24:14.789396448 -0700
